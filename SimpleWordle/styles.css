@@ -1,0 +1,50 @@
+.ib{
+    display: inline-block;
+}
+#startbtn{
+    background-color: green;
+    color: black;
+    border-radius: 4px;
+    padding:1px 7px;
+}
+#resetbtn{
+    background-color: red;
+    color: black;
+    border-radius: 4px;
+    padding:1px 7px;
+}
+#cheatbtn{
+    background-color: gold;
+    color: black;
+    border-radius: 4px;
+    padding:1px 7px;
+}
+.papan{
+    display: inline-block;
+    width: 451px;
+    height: 451px;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-right: 10px;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+.baris{
+    display: block;
+}
+.kotakkecil{
+    display: flex;
+    float: left;
+    width: 75px;
+    height: 75px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
