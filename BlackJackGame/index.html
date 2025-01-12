@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <p>
+            welcome to blackjack
+        </p>
+        <p class="ib">
+            Number Of Players: 
+        </p>
+        <form action="" class="ib">
+            <input type="text" class="ib" id="jumlahpemain">
+            <div class="ib" id="startbtn" onclick="startdiklik()">start</div>
+            <div class="ib" id="resetbtn" onclick="resetdiklik()">restart</div>
+        </form>
+    </div>
+    <p class="status" id="status">GAME NOT STARTED</p>
+    <div class="papan">
+        <div id="player1"></div>
+        <div id="player2"></div>
+        <div id="player3"></div>
+        <div id="player4"></div>
+        <div id="player5"></div>
+    </div>
+    <div id="hit" class="kotak1" onclick="hitdiklik()">hit</div>
+    <div id="stand" class="kotak2" onclick="standdiklik()">stand</div>
+    <script src="script.js"></script>
+</body>
+</html>
